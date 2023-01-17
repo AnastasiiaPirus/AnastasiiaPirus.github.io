@@ -35,19 +35,19 @@ export const homeObjTwo = {
     link: "about"
 };
 
-export const homeObjThree = {
-    id: 'signup',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'Join our team',
-    headLine: 'Creating an account is extreme easy',
-    description: "Get everything set up and ready under 10 minutes. All you need to do is add your information and you're ready to go.",
-    buttonLabel: 'Start Now',
-    imgStart: false,
-    img: require("../../images/svg-3.svg").default,
-    alt: 'Presentation',
-    dark: false,
-    primary: false,
-    darkText: true
-};
+// export const homeObjThree = {
+//     id: 'signup',
+//     lightBg: true,
+//     lightText: false,
+//     lightTextDesc: false,
+//     topLine: 'Join our team',
+//     headLine: 'Creating an account is extreme easy',
+//     description: "Get everything set up and ready under 10 minutes. All you need to do is add your information and you're ready to go.",
+//     buttonLabel: 'Start Now',
+//     imgStart: false,
+//     img: require("../../images/svg-3.svg").default,
+//     alt: 'Presentation',
+//     dark: false,
+//     primary: false,
+//     darkText: true
+// };

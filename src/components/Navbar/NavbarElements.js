@@ -30,7 +30,7 @@ max-width: 1100px;
 `;
 
 export const NavLogo = styled(LinkR)`
-color: #fff;
+color: #F4C095;
 justify-self: flex-start;
 cursor: pointer;
 font-size: 1.5rem;
@@ -72,7 +72,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-    color: #fff;
+    color: #F4C095;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -81,7 +81,7 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
 
     &.active {
-        border-bottom: 3px solid #01bf71;
+        border-bottom: 3px solid #679289;
     }
 `;
 
@@ -96,10 +96,10 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
 border-radius: 50px;
-background: #01fb71;
+background: #679289;
 white-space: nowrap;
 padding: 1px 22px;
-color: #010606;
+color: #071E22;
 font-size: 16px;
 outline:none;
 border: none;
@@ -109,8 +109,8 @@ text-decoration: none;
 
 &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
+    background: #F4C095;
+    color: #071E22;
 }
 `;
 
