@@ -1,24 +1,30 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom"
 
 export const ServicesContainer = styled.div`
-    height: 800px;
+    height: fit-content;
     display: flex;
     flex-direction:column;
     justify-content:center;
     align-items: center;
-    background: #010606;
+    background: #071E22;
+    padding-bottom: 30px;
+    /* @media screen and (max-width: 1000px) {
+        height: 1200px;
+    }
 
     @media screen and (max-width: 768px) {
-        height: 1100px;
+        height: 1800px;
     }
 
     @media screen and (max-width: 480px) {
-        height: 1300px;
-    }
+        height: fit-content;
+    } */
+
 `;
 
 export const ServicesWrapper = styled.div`
-    max-width: 1000px;
+    max-width: 1300px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -26,7 +32,7 @@ export const ServicesWrapper = styled.div`
     grid-gap: 16px;
     padding: 0 50px;
 
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1100px) {
      grid-template-columns: 1fr 1fr;   
     }
 
@@ -37,7 +43,11 @@ export const ServicesWrapper = styled.div`
 `;
 
 export const ServicesCard = styled.div`
-    background: #fff;
+    background: rgba(72, 72, 72, 0.2);
+    border: 1px solid rgba(234, 234, 234, 0.2);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -56,16 +66,21 @@ export const ServicesCard = styled.div`
 `;
 
 export const ServicesIcon = styled.img`
-    height: 160px;
-    width: 160px;
+    /* height: 160px; */
+    width: 260px;
     margin-bottom: 10px;
+
+    @media screen and (max-width: 370px) {
+        width: 200px;
+    }
+
 `;
 
 export const ServicesH1 = styled.h1`
     font-size: 2.5rem;
-    color: #fff;
+    color: #F4C095;
     margin-bottom: 64px;
-
+    margin-top: 64px;
     @media screen and (max-width: 480px) {
      font-size: 2rem;   
     }
@@ -74,9 +89,70 @@ export const ServicesH1 = styled.h1`
 export const ServicesH2 = styled.h2`
     font-size:1rem;
     margin-bottom: 10px;
+    color:#F4C095;
+    @media screen and (max-width: 370px) {
+        font-size: 0.8rem;
+    }
 `;
 
 export const ServicesP = styled.p`
     font-size: 1rem;
     text-align: center;
+    color:#F4C095;
+    @media screen and (max-width: 370px) {
+        font-size: 0.8rem;
+    }
+`;
+
+export const GitButton = styled(Link)`
+    background-image: linear-gradient(to right, #020818 0%, #303648 51%, #020818  100%);
+    margin: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #111;
+    border-radius: 10px;
+    display: block;
+    font-size: 0.8rem;
+    text-decoration: none;
+    &:hover {
+        background-position: right center; /* change the direction of the change here */
+        text-decoration: none;
+    }
+    @media screen and (max-width: 370px) {
+        font-size: 0.6rem;
+    }
+    
+`;
+
+export const LinkButton = styled(Link)`
+    background-image: linear-gradient(to right, #1D7874 0%, #1A333E  51%, #1D7874 100%);
+    margin: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #111;
+    border-radius: 10px;
+    display: block;
+    font-size: 0.8rem;
+    text-decoration: none;
+    &:hover {
+        background-position: right center; /* change the direction of the change here */
+        text-decoration: none;
+    }
+    @media screen and (max-width: 370px) {
+        font-size: 0.6rem;
+    }
+`;
+
+export const ButtonsContainer = styled.div`
+width: 100%;
+display: flex;
+justify-content:space-evenly;
 `;

@@ -29,7 +29,7 @@ padding: 0 24px;
 max-width: 1100px;
 `;
 
-export const NavLogo = styled(LinkR)`
+export const NavLogo = styled(LinkS)`
 color: #F4C095;
 justify-self: flex-start;
 cursor: pointer;
@@ -106,7 +106,9 @@ border: none;
 cursor: pointer;
 transition: all 0.2s ease-in-out;
 text-decoration: none;
-
+height: 44px;
+display: flex;
+align-items: center;
 &:hover {
     transition: all 0.2s ease-in-out;
     background: #F4C095;

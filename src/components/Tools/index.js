@@ -1,44 +1,120 @@
-import React, {useRef} from 'react';
+import React from 'react';
 import {
     ToolsContainer,
     ToolsWrapper,
     ToolsH1,
     ToolsSlider,
-    ToolsList,
     ToolsCarousel,
     ToolItem,
-    ToolIcon
+    ToolIcon,
+    ToolsListRight,
+    ToolsListLeft,
+    IconLabel,
+    ToolsBg,
+    ImageBg
 
 } from './ToolsElements';
+import {
+    DiReact,
+    DiJavascript,
+    DiCss3,
+    DiHtml5,
+    DiPython
+} from "react-icons/di";
+import {
+    SiStyledcomponents
+} from "react-icons/si";
+
+import Background from '../../images/amy-hirschi-szrJ3wjzOMg-unsplash.jpg'
 
 
 const Tools = () => {
 
-    const icons = [1, 2, 3, 4, 5, 6, 7, 8,9,10,11,12,1, 2, 3, 4, 5, 6, 7, 8,9,10,11,12]
-
+    const iconsLeft = [
+        ["React", <DiReact />],
+        ["JavaScript", <DiJavascript />],
+        ["CSS3", <DiCss3 />],
+        ["HTML5", <DiHtml5 />],
+        ["Styled Components", <SiStyledcomponents />],
+        ["Python", <DiPython />],
+        ["React", <DiReact />],
+        ["JavaScript", <DiJavascript />],
+        ["CSS3", <DiCss3 />],
+        ["HTML5", <DiHtml5 />],
+        ["Styled Components", <SiStyledcomponents />],
+        ["Python", <DiPython />],
+        ["React", <DiReact />],
+        ["JavaScript", <DiJavascript />],
+        ["CSS3", <DiCss3 />],
+        ["HTML5", <DiHtml5 />],
+        ["Styled Components", <SiStyledcomponents />],
+        ["Python", <DiPython />],
+        ["React", <DiReact />],
+        ["JavaScript", <DiJavascript />],
+        ["CSS3", <DiCss3 />],
+        ["HTML5", <DiHtml5 />],
+        ["Styled Components", <SiStyledcomponents />],
+        ["Python", <DiPython />],
+        ["React", <DiReact />],
+        ["JavaScript", <DiJavascript />],
+        ["CSS3", <DiCss3 />],
+        ["HTML5", <DiHtml5 />],
+        ["Styled Components", <SiStyledcomponents />],
+        ["Python", <DiPython />],
+        ["React", <DiReact />],
+        ["JavaScript", <DiJavascript />],
+        ["CSS3", <DiCss3 />],
+        ["HTML5", <DiHtml5 />],
+        ["Styled Components", <SiStyledcomponents />],
+        ["Python", <DiPython />],
+        ["React", <DiReact />],
+        ["JavaScript", <DiJavascript />],
+        ["CSS3", <DiCss3 />],
+        ["HTML5", <DiHtml5 />],
+        ["Styled Components", <SiStyledcomponents />],
+        ["Python", <DiPython />],
+        ["React", <DiReact />],
+        ["JavaScript", <DiJavascript />],
+        ["CSS3", <DiCss3 />],
+        ["HTML5", <DiHtml5 />],
+        ["Styled Components", <SiStyledcomponents />],
+        ["Python", <DiPython />],
+        
+    ]
     const renderItems = () => {
         let items = [];
-        for (let i = 0; i < icons.length; i++) {
-            items.push(<ToolItem key={i} ><ToolIcon>{icons[i]}</ToolIcon></ToolItem>);
+        for (let i = 0; i < iconsLeft.length; i++) {
+            items.push(<ToolItem key={i} >
+                <ToolIcon>{iconsLeft[i][1]}<IconLabel>{iconsLeft[i][0]}</IconLabel></ToolIcon>
+
+            </ToolItem>);
         }
         return items;
     };
 
 
- 
+
 
     return (
         <>
             <ToolsContainer id="tools">
-                <ToolsH1>Tools</ToolsH1>
+                <ToolsBg>
+                    <ImageBg src={Background} />
+                </ToolsBg>
+                <ToolsH1>Tools I often use:</ToolsH1>
                 <ToolsWrapper>
                     <ToolsCarousel>
                         <ToolsSlider>
-                            <ToolsList>
+                            <ToolsListRight>
                                 {renderItems()}
-                            </ToolsList>
+                            </ToolsListRight>
+                            <ToolsListLeft>
+                                {renderItems()}
+                            </ToolsListLeft>
+                            <ToolsListRight>
+                                {renderItems()}
+                            </ToolsListRight>
                         </ToolsSlider>
-                        
                     </ToolsCarousel>
                 </ToolsWrapper>
             </ToolsContainer>

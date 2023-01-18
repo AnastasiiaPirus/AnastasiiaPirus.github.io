@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Contacts from '../components/Contacts'
 import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
@@ -23,9 +24,8 @@ const Home = () => {
             <InfoSection {...homeObjOne} />
             <InfoSection {...homeObjTwo} />
             <Tools />
-            {/* <Services /> */}
-            {/* <InfoSection {...homeObjThree} /> */}
-            {/* <Footer /> */}
+            <Services />
+            <Contacts />
         </>
     )
 }
