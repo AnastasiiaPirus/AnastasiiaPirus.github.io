@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.87277745.css",
-    "main.js": "/Portfolio/static/js/main.1064bd84.js",
+    "main.js": "/Portfolio/static/js/main.045e9326.js",
     "static/media/SpaceJourney.png": "/Portfolio/static/media/SpaceJourney.87c1ccfb66988c5c481b.png",
     "static/media/background.jpg": "/Portfolio/static/media/background.03ad52010293fb645be6.jpg",
     "static/media/Cyberpunk.png": "/Portfolio/static/media/Cyberpunk.8420726780fb50d0df14.png",
@@ -15,10 +15,10 @@
     "static/media/coming-soon.png": "/Portfolio/static/media/coming-soon.8e3d37c2d986ddf9bbc7.png",
     "index.html": "/Portfolio/index.html",
     "main.87277745.css.map": "/Portfolio/static/css/main.87277745.css.map",
-    "main.1064bd84.js.map": "/Portfolio/static/js/main.1064bd84.js.map"
+    "main.045e9326.js.map": "/Portfolio/static/js/main.045e9326.js.map"
   },
   "entrypoints": [
     "static/css/main.87277745.css",
-    "static/js/main.1064bd84.js"
+    "static/js/main.045e9326.js"
   ]
 }
