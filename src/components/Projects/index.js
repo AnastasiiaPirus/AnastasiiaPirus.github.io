@@ -2,6 +2,7 @@ import React from 'react'
 import SpaceJourney from '../../images/SpaceJourney.png'
 import BankingApp from '../../images/BankingApp.png'
 import TimerApp from '../../images/TimerApp.png'
+import Portfolio from '../../images/Portfolio.png'
 import Cyberpunk from '../../images/Cyberpunk.png'
 import Wiki from '../../images/Wiki.png'
 import Finance from '../../images/Finance.png'
@@ -60,6 +61,18 @@ const Projects = () => {
                                 rel="noopener"
                                 aria-label='Github'>GitHub</GitButton>
                             <LinkButton href='http://apirus.pythonanywhere.com/login' target='_blank'
+                                rel="noopener">Visit website</LinkButton>
+                        </ButtonsContainer>
+                    </ProjectsCard>
+                    <ProjectsCard>
+                        <ProjectsH2>Portfolio website</ProjectsH2>
+                        <ProjectsIcon src={Portfolio} />
+                        <ProjectsP>You are here now :) React website with styled components.</ProjectsP>
+                        <ButtonsContainer>
+                            <GitButton href="https://github.com/AnastasiiaPirus/Portfolio" target='_blank'
+                                rel="noopener"
+                                aria-label='Github'>GitHub</GitButton>
+                            <LinkButton href='https://anastasiiapirus.github.io/Portfolio/' target='_blank'
                                 rel="noopener">Visit website</LinkButton>
                         </ButtonsContainer>
                     </ProjectsCard>
