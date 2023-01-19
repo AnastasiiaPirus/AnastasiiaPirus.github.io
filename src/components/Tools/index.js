@@ -37,7 +37,7 @@ import {
     
 } from "react-icons/si";
 
-import Background from '../../images/amy-hirschi-szrJ3wjzOMg-unsplash.jpg'
+import Background from '../../images/background.jpg'
 
 
 const Tools = () => {
