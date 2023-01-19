@@ -62,7 +62,7 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to={Resume} target="_blank" download smooth='true' duration={500} spy={true} exact = "true" offset={-80}>Download CV</NavBtnLink>
+                        <NavBtnLink to={Resume} target="_blank" download exact = "true">Download CV</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

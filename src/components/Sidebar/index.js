@@ -9,6 +9,7 @@ import {
     SideBtnWrap,
     SidebarRoute
 } from './SidebarElements'
+import Resume from '../../documents/CS50x.pdf'
 
 const Sidebar = ({isOpen, toggle}) => {
     return (
@@ -24,7 +25,7 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="contacts" onClick={toggle}>Contact Me</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="/">Download CV</SidebarRoute>
+                    <SidebarRoute to={Resume} target="_blank" download exact = "true">Download CV</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
