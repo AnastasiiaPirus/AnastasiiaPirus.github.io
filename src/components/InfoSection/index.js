@@ -18,7 +18,7 @@ import {
     ArrowRight,
     
 } from './InfoElements'
-// import Gif from '../../images/female-web-designer-working-on-web-design.json'
+
 import Lottie from 'react-lottie';
 
 
