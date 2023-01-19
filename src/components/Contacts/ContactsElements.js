@@ -91,7 +91,7 @@ export const ContactPoint = styled.div`
     display: grid;
     grid-template-columns: 1fr 6fr;
     padding: 10px;
-`
+`;
 export const ContactsIcon = styled.div`
     font-size: 4rem;
     color: #EE2E31;
@@ -100,7 +100,17 @@ export const ContactsIcon = styled.div`
         font-size: 2rem;
         
     }
-`
+`;
 export const ContactsText = styled.div`
     display:block;
-`
+`;
+
+export const Link = styled.a`
+    color:#1D7874;
+    &:visited {
+        color:#1D7874;
+    }
+    &:hover {
+        color:#EE2E31;
+    }
+`;

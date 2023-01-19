@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaLinkedin, FaCanadianMapleLeaf, FaGithub, FaEnvelope } from "react-icons/fa";
+import { Link } from 'react-scroll';
 
 import FormApp from './ContactForm'
 import {
@@ -39,14 +40,14 @@ const Contacts = () => {
                             <ContactsIcon><FaLinkedin /></ContactsIcon>
                             <ContactsText>
                                 <ContactsH2>LinkedIn</ContactsH2>
-                                <ContactsP>https://www.linkedin.com/in/anastasia-pirus/</ContactsP>
+                                <ContactsP><Link href='https://www.linkedin.com/in/anastasia-pirus/'>Link</Link></ContactsP>
                             </ContactsText>
                         </ContactPoint>
                         <ContactPoint>
                             <ContactsIcon><FaGithub /></ContactsIcon>
                             <ContactsText>
                                 <ContactsH2>GitHub</ContactsH2>
-                                <ContactsP>https://github.com/AnastasiiaPirus</ContactsP>
+                                <ContactsP><Link href='https://github.com/AnastasiiaPirus'>Link</Link> </ContactsP>
                             </ContactsText>
                         </ContactPoint>
                     </InfoContainer>

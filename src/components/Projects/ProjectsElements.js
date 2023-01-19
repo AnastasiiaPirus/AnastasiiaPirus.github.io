@@ -66,11 +66,13 @@ export const ProjectsCard = styled.div`
 
 export const ProjectsIcon = styled.img`
     /* height: 160px; */
-    width: 260px;
+    max-width: 260px;
     margin-bottom: 10px;
+    max-height: 150px;
 
     @media screen and (max-width: 370px) {
-        width: 200px;
+        max-width: 200px;
+        max-height: 100px;
     }
 
 `;
@@ -115,7 +117,8 @@ export const GitButton = styled.a`
     color: white;            
     box-shadow: 0 0 20px #111;
     border-radius: 10px;
-    display: block;
+    display: flex;
+    align-items:center;
     font-size: 0.8rem;
     text-decoration: none;
     &:hover {
@@ -133,6 +136,7 @@ export const LinkButton = styled.a`
     margin: 10px;
     padding: 10px 15px;
     text-align: center;
+    justify-content:center;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;

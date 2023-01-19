@@ -1,5 +1,5 @@
-import * as animationData1 from '../../images/75999-idea-innovation.json'
-import * as animationData2 from '../../images/75941-design-process.json'
+import * as animationData1 from '../../images/HeroSection.json'
+import * as animationData2 from '../../images/InfoSection.json'
 
 export const homeObjOne = {
     id: 'hero',

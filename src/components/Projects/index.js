@@ -3,6 +3,10 @@ import SpaceJourney from '../../images/SpaceJourney.png'
 import BankingApp from '../../images/BankingApp.png'
 import TimerApp from '../../images/TimerApp.png'
 import Cyberpunk from '../../images/Cyberpunk.png'
+import Wiki from '../../images/Wiki.png'
+import Finance from '../../images/Finance.png'
+import Google from '../../images/Google.png'
+import ComingSoon from '../../images/coming-soon.png'
 
 import {
     ProjectsContainer,
@@ -72,25 +76,44 @@ const Projects = () => {
                         </ButtonsContainer>
                     </ProjectsCard>
                     <ProjectsCard>
-                        <ProjectsH2>SpaceJourney</ProjectsH2>
-                        <ProjectsIcon src={SpaceJourney} />
-                        <ProjectsP>React website designed by AI.</ProjectsP>
+                        <ProjectsH2>Wiki</ProjectsH2>
+                        <ProjectsIcon src={Wiki} />
+                        <ProjectsP>A Wikipedia-like online encyclopedia. Back-end made on Django.</ProjectsP>
                         <ButtonsContainer>
-                            <GitButton href="https://github.com/AnastasiiaPirus/banking-app" target='_blank'
+                            <GitButton href="https://github.com/AnastasiiaPirus/CS50-Projects/tree/main/wiki" target='_blank'
                                 rel="noopener"
                                 aria-label='Github'>GitHub</GitButton>
                             
                         </ButtonsContainer>
                     </ProjectsCard>
                     <ProjectsCard>
-                        <ProjectsH2>SpaceJourney</ProjectsH2>
-                        <ProjectsIcon src={SpaceJourney} />
-                        <ProjectsP>React website designed by AI.</ProjectsP>
+                        <ProjectsH2>Finance</ProjectsH2>
+                        <ProjectsIcon src={Finance} />
+                        <ProjectsP>Website to manage portfolios of stocks. Back-end made on Flusk.</ProjectsP>
                         <ButtonsContainer>
-                            <GitButton href="https://github.com/AnastasiiaPirus/banking-app" target='_blank'
+                            <GitButton href="https://github.com/AnastasiiaPirus/CS50-Projects/tree/main/finance" target='_blank'
                                 rel="noopener"
-                                aria-label='Github'>GitHub</GitButton>
-                            
+                                aria-label='Github'>GitHub</GitButton>                            
+                        </ButtonsContainer>
+                    </ProjectsCard>
+                    <ProjectsCard>
+                        <ProjectsH2>Search</ProjectsH2>
+                        <ProjectsIcon src={Google} />
+                        <ProjectsP>A copy of Google front-end on HTML5.</ProjectsP>
+                        <ButtonsContainer>
+                            <GitButton href="https://github.com/AnastasiiaPirus/CS50-Projects/tree/main/search" target='_blank'
+                                rel="noopener"
+                                aria-label='Github'>GitHub</GitButton>                            
+                        </ButtonsContainer>
+                    </ProjectsCard>
+                    <ProjectsCard>
+                        <ProjectsH2>Commerce</ProjectsH2>
+                        <ProjectsIcon src={ComingSoon} />
+                        <ProjectsP>Online marketplace back-end (Django).</ProjectsP>
+                        <ButtonsContainer>
+                            <GitButton href="https://github.com/AnastasiiaPirus/CS50-Projects/tree/main/commerce" target='_blank'
+                                rel="noopener"
+                                aria-label='Github'>GitHub</GitButton>                            
                         </ButtonsContainer>
                     </ProjectsCard>
                 </ProjectsWrapper>
