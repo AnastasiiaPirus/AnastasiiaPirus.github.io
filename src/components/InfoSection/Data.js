@@ -17,6 +17,7 @@ export const homeObjOne = {
     primary: true,
     darkText: false,
     lightTopLine: true,
+    link: "about",
     animation: animationData1
 
 };
@@ -36,7 +37,7 @@ export const homeObjTwo = {
     dark: false,
     primary: false,
     darkText: true,
-    link: "about",
+    link: "contacts",
     animation: animationData2
 };
 
