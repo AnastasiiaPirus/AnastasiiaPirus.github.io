@@ -12,18 +12,17 @@ import {
     Heading,
     Subtitle,
     BtnWrap,
-    // Img,
     LineHr,
     ArrowForward,
     ArrowRight,
-    
+
 } from './InfoElements'
 
 import Lottie from 'react-lottie';
 
 
 
-const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, buttonLabel, img, alt, primary, dark, dark2, lightTopLine, link, animation }) => {
+const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, buttonLabel, primary, dark, lightTopLine, link, animation }) => {
     const [hover, setHover] = useState(false)
     const onHover = () => {
         setHover(!hover)
@@ -31,12 +30,13 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headLine, dark
 
     const defaultOptions = {
         loop: true,
-        autoplay: true, 
+        autoplay: true,
         animationData: animation,
         rendererSettings: {
-          preserveAspectRatio: 'xMidYMid slice'
+            className: "lottie-svg-class",
+            id: "lottie-svg-id"
         }
-      };
+    };
 
     return (
         <>
@@ -56,10 +56,7 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headLine, dark
                         </Collumn1>
                         <Collumn2>
                             <ImgWrap>
-                                {/* <Img src={img} alt={alt} /> */}
                                 <Lottie options={defaultOptions}
-                                    height={555}
-                                    width={555}
                                     isStopped={false}
                                     isPaused={false} />
                             </ImgWrap>

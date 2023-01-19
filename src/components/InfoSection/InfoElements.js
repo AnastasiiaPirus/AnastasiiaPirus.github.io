@@ -52,13 +52,9 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-    /* color:#F4C095; */
     color: ${({ lightTopLine }) => (lightTopLine ? '#F4C095' : '#071E22')};
     font-size: 18px;
     line-height: 18px;
-    /* font-weight: 700; */
-    /* letter-spacing: 1.4px; */
-    /* text-transform: uppercase; */
     margin-bottom: 16px;
 `;
 
@@ -90,6 +86,9 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
+    &.lottie-svg-class{
+    width:100%!important;
+}
 `;
 
 export const Img = styled.img`
