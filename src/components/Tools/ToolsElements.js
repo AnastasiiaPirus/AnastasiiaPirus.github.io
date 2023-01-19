@@ -125,7 +125,7 @@ export const ToolItem = styled.li`
 
 export const ToolIcon = styled.span`
     /* border: green 1px solid; */
-    font-size: 6rem;
+    font-size: 5rem;
     
 
     &:hover {
@@ -145,7 +145,7 @@ export const ToolIcon = styled.span`
 export const IconLabel = styled.div`
     position:absolute;
     font-size: 16px;
-    top: 100px;
+    top: 110px;
     width: 100%;
     align-self: center;
     text-align: center;

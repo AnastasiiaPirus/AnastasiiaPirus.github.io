@@ -14,15 +14,27 @@ import {
     ImageBg
 
 } from './ToolsElements';
+
 import {
-    DiReact,
-    DiJavascript,
-    DiCss3,
-    DiHtml5,
-    DiPython
-} from "react-icons/di";
-import {
-    SiStyledcomponents
+    SiStyledcomponents,
+    SiJavascript,
+    SiC,
+    SiBootstrap,
+    SiDjango,
+    SiFlask,
+    SiCanva,
+    SiMicrosoftoffice,
+    SiFigma,
+    SiAdobephotoshop,
+    SiTrello,
+    SiSass,
+    SiSqlite,
+    SiGithub,
+    SiReact,
+    SiCss3,
+    SiPython,
+    SiHtml5
+    
 } from "react-icons/si";
 
 import Background from '../../images/amy-hirschi-szrJ3wjzOMg-unsplash.jpg'
@@ -30,62 +42,145 @@ import Background from '../../images/amy-hirschi-szrJ3wjzOMg-unsplash.jpg'
 
 const Tools = () => {
 
-    const iconsLeft = [
-        ["React", <DiReact />],
-        ["JavaScript", <DiJavascript />],
-        ["CSS3", <DiCss3 />],
-        ["HTML5", <DiHtml5 />],
-        ["Styled Components", <SiStyledcomponents />],
-        ["Python", <DiPython />],
-        ["React", <DiReact />],
-        ["JavaScript", <DiJavascript />],
-        ["CSS3", <DiCss3 />],
-        ["HTML5", <DiHtml5 />],
-        ["Styled Components", <SiStyledcomponents />],
-        ["Python", <DiPython />],
-        ["React", <DiReact />],
-        ["JavaScript", <DiJavascript />],
-        ["CSS3", <DiCss3 />],
-        ["HTML5", <DiHtml5 />],
-        ["Styled Components", <SiStyledcomponents />],
-        ["Python", <DiPython />],
-        ["React", <DiReact />],
-        ["JavaScript", <DiJavascript />],
-        ["CSS3", <DiCss3 />],
-        ["HTML5", <DiHtml5 />],
-        ["Styled Components", <SiStyledcomponents />],
-        ["Python", <DiPython />],
-        ["React", <DiReact />],
-        ["JavaScript", <DiJavascript />],
-        ["CSS3", <DiCss3 />],
-        ["HTML5", <DiHtml5 />],
-        ["Styled Components", <SiStyledcomponents />],
-        ["Python", <DiPython />],
-        ["React", <DiReact />],
-        ["JavaScript", <DiJavascript />],
-        ["CSS3", <DiCss3 />],
-        ["HTML5", <DiHtml5 />],
-        ["Styled Components", <SiStyledcomponents />],
-        ["Python", <DiPython />],
-        ["React", <DiReact />],
-        ["JavaScript", <DiJavascript />],
-        ["CSS3", <DiCss3 />],
-        ["HTML5", <DiHtml5 />],
-        ["Styled Components", <SiStyledcomponents />],
-        ["Python", <DiPython />],
-        ["React", <DiReact />],
-        ["JavaScript", <DiJavascript />],
-        ["CSS3", <DiCss3 />],
-        ["HTML5", <DiHtml5 />],
-        ["Styled Components", <SiStyledcomponents />],
-        ["Python", <DiPython />],
-        
+    const icons1 = [
+        ["HTML5", <SiHtml5 />], 
+        ["JavaScript", <SiJavascript />],
+        ["Python", <SiPython />],
+        ["CSS3", <SiCss3/>],
+        ["C",<SiC />],
+        ["Sqllite",<SiSqlite />],
+        ["HTML5", <SiHtml5 />], 
+        ["JavaScript", <SiJavascript />],
+        ["Python", <SiPython />],
+        ["CSS3", <SiCss3/>],
+        ["C",<SiC />],
+        ["Sqllite",<SiSqlite />],
+        ["HTML5", <SiHtml5 />], 
+        ["JavaScript", <SiJavascript />],
+        ["Python", <SiPython />],
+        ["CSS3", <SiCss3/>],
+        ["C",<SiC />],
+        ["Sqllite",<SiSqlite />],
+        ["HTML5", <SiHtml5 />], 
+        ["JavaScript", <SiJavascript />],
+        ["Python", <SiPython />],
+        ["CSS3", <SiCss3/>],
+        ["C",<SiC />],
+        ["Sqllite",<SiSqlite />],
+        ["HTML5", <SiHtml5 />], 
+        ["JavaScript", <SiJavascript />],
+        ["Python", <SiPython />],
+        ["CSS3", <SiCss3/>],
+        ["C",<SiC />],
+        ["Sqllite",<SiSqlite />],
+        ["HTML5", <SiHtml5 />], 
+        ["JavaScript", <SiJavascript />],
+        ["Python", <SiPython />],
+        ["CSS3", <SiCss3/>],
+        ["C",<SiC />],
+        ["Sqllite",<SiSqlite />],
+        ["HTML5", <SiHtml5 />], 
+        ["JavaScript", <SiJavascript />],
+        ["Python", <SiPython />],
+        ["CSS3", <SiCss3/>],
+        ["C",<SiC />],
+        ["Sqllite",<SiSqlite />],
     ]
-    const renderItems = () => {
+    const icons2 = [
+        ["Styled Components", <SiStyledcomponents />],
+        ["React", <SiReact />],
+        ["Bootstrap",<SiBootstrap />],
+        ["Sass",<SiSass />],
+        ['Django',<SiDjango />],
+        ['Flask', <SiFlask />],
+        ["Styled Components", <SiStyledcomponents />],
+        ["React", <SiReact />],
+        ["Bootstrap",<SiBootstrap />],
+        ["Sass",<SiSass />],
+        ['Django',<SiDjango />],
+        ['Flask', <SiFlask />],
+        ["Styled Components", <SiStyledcomponents />],
+        ["React", <SiReact />],
+        ["Bootstrap",<SiBootstrap />],
+        ["Sass",<SiSass />],
+        ['Django',<SiDjango />],
+        ['Flask', <SiFlask />],
+        ["Styled Components", <SiStyledcomponents />],
+        ["React", <SiReact />],
+        ["Bootstrap",<SiBootstrap />],
+        ["Sass",<SiSass />],
+        ['Django',<SiDjango />],
+        ['Flask', <SiFlask />],
+        ["Styled Components", <SiStyledcomponents />],
+        ["React", <SiReact />],
+        ["Bootstrap",<SiBootstrap />],
+        ["Sass",<SiSass />],
+        ['Django',<SiDjango />],
+        ['Flask', <SiFlask />],
+        ["Styled Components", <SiStyledcomponents />],
+        ["React", <SiReact />],
+        ["Bootstrap",<SiBootstrap />],
+        ["Sass",<SiSass />],
+        ['Django',<SiDjango />],
+        ['Flask', <SiFlask />],
+        ["Styled Components", <SiStyledcomponents />],
+        ["React", <SiReact />],
+        ["Bootstrap",<SiBootstrap />],
+        ["Sass",<SiSass />],
+        ['Django',<SiDjango />],
+        ['Flask', <SiFlask />],
+    ]
+    const icons3 = [
+        ["Figma", <SiFigma/>],
+        ["Adobe Photoshop", <SiAdobephotoshop />],
+        ["Trello",<SiTrello />],
+        ["Github",<SiGithub />],
+        ['Canva',<SiCanva/>],
+        ['Microsoft Office',<SiMicrosoftoffice />],
+        ["Figma", <SiFigma/>],
+        ["Adobe Photoshop", <SiAdobephotoshop />],
+        ["Trello",<SiTrello />],
+        ["Github",<SiGithub />],
+        ['Canva',<SiCanva/>],
+        ['Microsoft Office',<SiMicrosoftoffice />],
+        ["Figma", <SiFigma/>],
+        ["Adobe Photoshop", <SiAdobephotoshop />],
+        ["Trello",<SiTrello />],
+        ["Github",<SiGithub />],
+        ['Canva',<SiCanva/>],
+        ['Microsoft Office',<SiMicrosoftoffice />],
+        ["Figma", <SiFigma/>],
+        ["Adobe Photoshop", <SiAdobephotoshop />],
+        ["Trello",<SiTrello />],
+        ["Github",<SiGithub />],
+        ['Canva',<SiCanva/>],
+        ['Microsoft Office',<SiMicrosoftoffice />],
+        ["Figma", <SiFigma/>],
+        ["Adobe Photoshop", <SiAdobephotoshop />],
+        ["Trello",<SiTrello />],
+        ["Github",<SiGithub />],
+        ['Canva',<SiCanva/>],
+        ['Microsoft Office',<SiMicrosoftoffice />],
+        ["Figma", <SiFigma/>],
+        ["Adobe Photoshop", <SiAdobephotoshop />],
+        ["Trello",<SiTrello />],
+        ["Github",<SiGithub />],
+        ['Canva',<SiCanva/>],
+        ['Microsoft Office',<SiMicrosoftoffice />],
+        ["Figma", <SiFigma/>],
+        ["Adobe Photoshop", <SiAdobephotoshop />],
+        ["Trello",<SiTrello />],
+        ["Github",<SiGithub />],
+        ['Canva',<SiCanva/>],
+        ['Microsoft Office',<SiMicrosoftoffice />],
+
+    ]
+
+    const renderItems = (icons) => {
         let items = [];
-        for (let i = 0; i < iconsLeft.length; i++) {
+        for (let i = 0; i < icons.length; i++) {
             items.push(<ToolItem key={i} >
-                <ToolIcon>{iconsLeft[i][1]}<IconLabel>{iconsLeft[i][0]}</IconLabel></ToolIcon>
+                <ToolIcon>{icons[i][1]}<IconLabel>{icons[i][0]}</IconLabel></ToolIcon>
 
             </ToolItem>);
         }
@@ -106,13 +201,13 @@ const Tools = () => {
                     <ToolsCarousel>
                         <ToolsSlider>
                             <ToolsListRight>
-                                {renderItems()}
+                                {renderItems(icons1)}
                             </ToolsListRight>
                             <ToolsListLeft>
-                                {renderItems()}
+                                {renderItems(icons2)}
                             </ToolsListLeft>
                             <ToolsListRight>
-                                {renderItems()}
+                                {renderItems(icons3)}
                             </ToolsListRight>
                         </ToolsSlider>
                     </ToolsCarousel>

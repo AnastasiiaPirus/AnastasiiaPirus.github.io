@@ -1,7 +1,6 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom"
 
-export const ServicesContainer = styled.div`
+export const ProjectsContainer = styled.div`
     height: fit-content;
     display: flex;
     flex-direction:column;
@@ -23,7 +22,7 @@ export const ServicesContainer = styled.div`
 
 `;
 
-export const ServicesWrapper = styled.div`
+export const ProjectsWrapper = styled.div`
     max-width: 1300px;
     margin: 0 auto;
     display: grid;
@@ -42,7 +41,7 @@ export const ServicesWrapper = styled.div`
     }
 `;
 
-export const ServicesCard = styled.div`
+export const ProjectsCard = styled.div`
     background: rgba(72, 72, 72, 0.2);
     border: 1px solid rgba(234, 234, 234, 0.2);
     backdrop-filter: blur(2px);
@@ -65,7 +64,7 @@ export const ServicesCard = styled.div`
     }
 `;
 
-export const ServicesIcon = styled.img`
+export const ProjectsIcon = styled.img`
     /* height: 160px; */
     width: 260px;
     margin-bottom: 10px;
@@ -76,7 +75,7 @@ export const ServicesIcon = styled.img`
 
 `;
 
-export const ServicesH1 = styled.h1`
+export const ProjectsH1 = styled.h1`
     font-size: 2.5rem;
     color: #F4C095;
     margin-bottom: 64px;
@@ -86,7 +85,7 @@ export const ServicesH1 = styled.h1`
     }
 `;
 
-export const ServicesH2 = styled.h2`
+export const ProjectsH2 = styled.h2`
     font-size:1rem;
     margin-bottom: 10px;
     color:#F4C095;
@@ -95,16 +94,17 @@ export const ServicesH2 = styled.h2`
     }
 `;
 
-export const ServicesP = styled.p`
+export const ProjectsP = styled.p`
     font-size: 1rem;
     text-align: center;
     color:#F4C095;
     @media screen and (max-width: 370px) {
         font-size: 0.8rem;
     }
+    height: 3rem;
 `;
 
-export const GitButton = styled(Link)`
+export const GitButton = styled.a`
     background-image: linear-gradient(to right, #020818 0%, #303648 51%, #020818  100%);
     margin: 10px;
     padding: 10px 15px;
@@ -128,7 +128,7 @@ export const GitButton = styled(Link)`
     
 `;
 
-export const LinkButton = styled(Link)`
+export const LinkButton = styled.a`
     background-image: linear-gradient(to right, #1D7874 0%, #1A333E  51%, #1D7874 100%);
     margin: 10px;
     padding: 10px 15px;

@@ -14,6 +14,8 @@ import {
     NavBtnLink
 } from './NavbarElements';
 
+import Resume from '../../documents/CS50x.pdf'
+
 
 const Navbar = ({ toggle }) => {
     const [scrollNav, setScrollNav] = useState(false)
@@ -56,11 +58,11 @@ const Navbar = ({ toggle }) => {
                             <NavLinks to="projects" smooth='true' duration={500} spy={true} exact = "true" offset={-80}>Projects</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="signup" smooth='true' duration={500} spy={true} exact = "true" offset={-80}>Sign Up</NavLinks>
+                            <NavLinks to="contacts" smooth='true' duration={500} spy={true} exact = "true" offset={-80}>Contact Me</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="/" smooth='true' duration={500} spy={true} exact = "true" offset={-80}>Download CV</NavBtnLink>
+                        <NavBtnLink to={Resume} target="_blank" download smooth='true' duration={500} spy={true} exact = "true" offset={-80}>Download CV</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

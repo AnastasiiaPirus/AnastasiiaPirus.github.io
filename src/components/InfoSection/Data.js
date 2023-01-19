@@ -1,3 +1,6 @@
+import * as animationData1 from '../../images/75999-idea-innovation.json'
+import * as animationData2 from '../../images/75941-design-process.json'
+
 export const homeObjOne = {
     id: 'hero',
     lightBg: false,
@@ -5,7 +8,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: "Hi! I'm Anastasiia.",
     headLine:'Front-End Developer',
-    description: [ <br/>,"I make your designs come to life.",  <br/>, " Freelance developer. Open to full-time opportunities.", <br />,<br />,"Let's collaborate :)"] ,
+    description: [ <br/>,"Bring to life your designs.",  <br/>, " Freelance developer. Open to full-time opportunities.", <br />,<br />,"Let's collaborate :)"] ,
     buttonLabel: 'Learn more',
     imgStart: false,
     img: require("../../images/svg-1.svg").default,
@@ -13,7 +16,8 @@ export const homeObjOne = {
     dark: true,
     primary: true,
     darkText: false,
-    lightTopLine: true
+    lightTopLine: true,
+    animation: animationData1
 
 };
 
@@ -23,7 +27,7 @@ export const homeObjTwo = {
     lightText: false,
     lightTextDesc: false,
     topLine: '',
-    headLine: 'I make your designs come to life',
+    headLine: 'Bring to life your designs',
     description: ['Something about me. Ask Vlad later.',<br />,<br />,"Say that I'm from Toronto, Canada. Have freelance experience (maybe, or maybe upd. later). Have professional background in Finance and accounting.", <br />,<br />," Have an interesting project?"],
     buttonLabel: "Let's Talk",
     imgStart: true,
@@ -32,7 +36,8 @@ export const homeObjTwo = {
     dark: false,
     primary: false,
     darkText: true,
-    link: "about"
+    link: "about",
+    animation: animationData2
 };
 
 // export const homeObjThree = {

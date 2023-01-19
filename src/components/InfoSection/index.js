@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { Button } from '../ButtonElements'
 import {
     Collumn2,
@@ -12,19 +12,32 @@ import {
     Heading,
     Subtitle,
     BtnWrap,
-    Img,
+    // Img,
     LineHr,
-    ArrowForward, 
-    ArrowRight
+    ArrowForward,
+    ArrowRight,
+    
 } from './InfoElements'
+// import Gif from '../../images/female-web-designer-working-on-web-design.json'
+import Lottie from 'react-lottie';
 
 
 
-const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, buttonLabel, img, alt, primary, dark, dark2, lightTopLine, link }) => {
+const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, buttonLabel, img, alt, primary, dark, dark2, lightTopLine, link, animation }) => {
     const [hover, setHover] = useState(false)
     const onHover = () => {
-      setHover(!hover)
+        setHover(!hover)
     }
+
+    const defaultOptions = {
+        loop: true,
+        autoplay: true, 
+        animationData: animation,
+        rendererSettings: {
+          preserveAspectRatio: 'xMidYMid slice'
+        }
+      };
+
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
@@ -43,8 +56,12 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headLine, dark
                         </Collumn1>
                         <Collumn2>
                             <ImgWrap>
-                                <Img src={img} alt={alt} />
-                                
+                                {/* <Img src={img} alt={alt} /> */}
+                                <Lottie options={defaultOptions}
+                                    height={555}
+                                    width={555}
+                                    isStopped={false}
+                                    isPaused={false} />
                             </ImgWrap>
                         </Collumn2>
                     </InfoRow>

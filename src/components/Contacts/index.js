@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLinkedin , FaCanadianMapleLeaf, FaGithub, FaEnvelope} from "react-icons/fa";
+import { FaLinkedin, FaCanadianMapleLeaf, FaGithub, FaEnvelope } from "react-icons/fa";
 
 import FormApp from './ContactForm'
 import {
@@ -22,7 +22,7 @@ const Contacts = () => {
                 <ContactsWrapper>
                     <InfoContainer>
                         <ContactPoint>
-                            <ContactsIcon><FaCanadianMapleLeaf/></ContactsIcon>
+                            <ContactsIcon><FaCanadianMapleLeaf /></ContactsIcon>
                             <ContactsText>
                                 <ContactsH2>Location</ContactsH2>
                                 <ContactsP>Toronto, Canada</ContactsP>
@@ -49,7 +49,6 @@ const Contacts = () => {
                                 <ContactsP>https://github.com/AnastasiiaPirus</ContactsP>
                             </ContactsText>
                         </ContactPoint>
-
                     </InfoContainer>
                     <FormApp />
                 </ContactsWrapper>

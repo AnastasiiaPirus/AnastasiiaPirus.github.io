@@ -8,6 +8,7 @@ export const ContactsContainer = styled.div`
     align-items: center;
     background: #F4C095;
     padding-bottom: 30px;
+    min-height: 700px;
 `;
 
 export const ContactsWrapper = styled.div`
@@ -37,6 +38,7 @@ export const ContactsH1 = styled.h1`
 export const InfoContainer = styled.div`
     height: 100%;
     width: 100%;
+    background: rgba( 255, 255, 255, 0.15 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.17 );
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
@@ -63,14 +65,29 @@ export const ContactsP = styled.p`
     text-align: start;
     color:#1D7874;
     padding-left: 10px;
-    @media screen and (max-width: 370px) {
-        font-size: 0.8rem;
+   
+    @media screen and (max-width: 768px) {
+        
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+
+        -ms-word-break: break-all;
+        /* This is the dangerous one in WebKit, as it breaks things wherever */
+        word-break: break-all;
+        /* Instead use this non-standard one: */
+        word-break: break-word;
+        
     }
+    @media screen and (max-width: 370px) {
+        font-size: 0.8rem;        
+    }
+    
+    
     
 `;
 
 export const ContactPoint = styled.div`
-    background: rgba( 255, 255, 255, 0.15 );
+    
     display: grid;
     grid-template-columns: 1fr 6fr;
     padding: 10px;
@@ -78,6 +95,11 @@ export const ContactPoint = styled.div`
 export const ContactsIcon = styled.div`
     font-size: 4rem;
     color: #EE2E31;
+
+    @media screen and (max-width: 370px) {
+        font-size: 2rem;
+        
+    }
 `
 export const ContactsText = styled.div`
     display:block;
