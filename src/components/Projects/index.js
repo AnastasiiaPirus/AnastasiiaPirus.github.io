@@ -43,7 +43,7 @@ const Projects = () => {
                     <ProjectsCard>
                         <ProjectsH2>SpaceJourney</ProjectsH2>
                         <ProjectsIcon src={SpaceJourney} />
-                        <ProjectsP>React website designed by AI.</ProjectsP>
+                        <ProjectsP>React website inspired by AI design.</ProjectsP>
                         <ButtonsContainer>
                             <GitButton href="https://github.com/AnastasiiaPirus/Dashboard" target='_blank'
                                 rel="noopener"
@@ -55,7 +55,7 @@ const Projects = () => {
                     <ProjectsCard>
                         <ProjectsH2>Timer App</ProjectsH2>
                         <ProjectsIcon src={TimerApp} />
-                        <ProjectsP>Productivity timer build with Flusk back-end and SQLite.</ProjectsP>
+                        <ProjectsP>Gamified productivity timer. HTML5, CSS, Bootstrap, JS, Flask, and SQLite.</ProjectsP>
                         <ButtonsContainer>
                             <GitButton href="https://github.com/AnastasiiaPirus/Timer-App" target='_blank'
                                 rel="noopener"
@@ -79,7 +79,7 @@ const Projects = () => {
                     <ProjectsCard>
                         <ProjectsH2>Cyberpunk-themed website</ProjectsH2>
                         <ProjectsIcon src={Cyberpunk} />
-                        <ProjectsP>HTML5 website with use of third-party weather API and Bootstrap.</ProjectsP>
+                        <ProjectsP>HTML5 website with third-party weather API and Bootstrap.</ProjectsP>
                         <ButtonsContainer>
                             <GitButton href="https://github.com/AnastasiiaPirus/cyberpunk-themed-website" target='_blank'
                                 rel="noopener"
@@ -91,7 +91,7 @@ const Projects = () => {
                     <ProjectsCard>
                         <ProjectsH2>Wiki</ProjectsH2>
                         <ProjectsIcon src={Wiki} />
-                        <ProjectsP>A Wikipedia-like online encyclopedia. Back-end made on Django.</ProjectsP>
+                        <ProjectsP>A Wikipedia-like online encyclopedia. Back-end made with Django.</ProjectsP>
                         <ButtonsContainer>
                             <GitButton href="https://github.com/AnastasiiaPirus/CS50-Projects/tree/main/wiki" target='_blank'
                                 rel="noopener"
@@ -102,7 +102,7 @@ const Projects = () => {
                     <ProjectsCard>
                         <ProjectsH2>Finance</ProjectsH2>
                         <ProjectsIcon src={Finance} />
-                        <ProjectsP>Website to manage portfolios of stocks. Back-end made on Flusk.</ProjectsP>
+                        <ProjectsP>Website to manage portfolios of stocks. Back-end made with Flask.</ProjectsP>
                         <ButtonsContainer>
                             <GitButton href="https://github.com/AnastasiiaPirus/CS50-Projects/tree/main/finance" target='_blank'
                                 rel="noopener"
@@ -112,7 +112,7 @@ const Projects = () => {
                     <ProjectsCard>
                         <ProjectsH2>Search</ProjectsH2>
                         <ProjectsIcon src={Google} />
-                        <ProjectsP>A copy of Google front-end on HTML5.</ProjectsP>
+                        <ProjectsP>A copy of Google front-end with HTML5.</ProjectsP>
                         <ButtonsContainer>
                             <GitButton href="https://github.com/AnastasiiaPirus/CS50-Projects/tree/main/search" target='_blank'
                                 rel="noopener"
