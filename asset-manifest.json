@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.87277745.css",
-    "main.js": "/Portfolio/static/js/main.5524ee23.js",
+    "main.js": "/Portfolio/static/js/main.1cb225ae.js",
     "static/media/SpaceJourney.png": "/Portfolio/static/media/SpaceJourney.87c1ccfb66988c5c481b.png",
+    "static/media/AnastasiiaPirusResume_2023.pdf": "/Portfolio/static/media/AnastasiiaPirusResume_2023.273985bec864d82e5b7a.pdf",
     "static/media/background.jpg": "/Portfolio/static/media/background.03ad52010293fb645be6.jpg",
     "static/media/Cyberpunk.png": "/Portfolio/static/media/Cyberpunk.8420726780fb50d0df14.png",
     "static/media/BankingApp.png": "/Portfolio/static/media/BankingApp.046e19b0c61dc8293214.png",
     "static/media/Portfolio.png": "/Portfolio/static/media/Portfolio.7d74352f412ae65731cc.png",
-    "static/media/CS50x.pdf": "/Portfolio/static/media/CS50x.b41aa8bc75806c84ea9d.pdf",
     "static/media/TimerApp.png": "/Portfolio/static/media/TimerApp.73d2469734895d72efc4.png",
     "static/media/Google.png": "/Portfolio/static/media/Google.fca7a4f88412e4109055.png",
     "static/media/Wiki.png": "/Portfolio/static/media/Wiki.9013241ddd30fd14f3aa.png",
@@ -15,10 +15,10 @@
     "static/media/coming-soon.png": "/Portfolio/static/media/coming-soon.8e3d37c2d986ddf9bbc7.png",
     "index.html": "/Portfolio/index.html",
     "main.87277745.css.map": "/Portfolio/static/css/main.87277745.css.map",
-    "main.5524ee23.js.map": "/Portfolio/static/js/main.5524ee23.js.map"
+    "main.1cb225ae.js.map": "/Portfolio/static/js/main.1cb225ae.js.map"
   },
   "entrypoints": [
     "static/css/main.87277745.css",
-    "static/js/main.5524ee23.js"
+    "static/js/main.1cb225ae.js"
   ]
 }
