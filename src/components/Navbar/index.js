@@ -14,7 +14,7 @@ import {
     NavBtnLink
 } from './NavbarElements';
 
-import Resume from '../../documents/CS50x.pdf'
+import Resume from '../../documents/AnastasiiaPirusResume_2023.pdf'
 
 
 const Navbar = ({ toggle }) => {

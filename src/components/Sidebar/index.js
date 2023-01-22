@@ -9,7 +9,7 @@ import {
     SideBtnWrap,
     SidebarRoute
 } from './SidebarElements'
-import Resume from '../../documents/CS50x.pdf'
+import Resume from '../../documents/AnastasiiaPirusResume_2023.pdf'
 
 const Sidebar = ({isOpen, toggle}) => {
     return (
