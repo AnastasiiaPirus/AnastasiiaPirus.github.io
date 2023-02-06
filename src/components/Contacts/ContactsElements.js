@@ -105,12 +105,18 @@ export const ContactsText = styled.div`
     display:block;
 `;
 
-export const Link = styled.a`
+export const ContactsLink = styled.a`
     color:#1D7874;
     &:visited {
         color:#1D7874;
     }
     &:hover {
         color:#EE2E31;
+    }
+    &:active {
+        color:#1D7874;
+    }
+    &:link{
+        color:#1D7874;
     }
 `;

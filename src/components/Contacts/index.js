@@ -1,7 +1,5 @@
 import React from 'react'
 import { FaLinkedin, FaCanadianMapleLeaf, FaGithub, FaEnvelope } from "react-icons/fa";
-import { Link } from 'react-scroll';
-
 import FormApp from './ContactForm'
 import {
     ContactsContainer,
@@ -12,7 +10,8 @@ import {
     ContactsH2,
     ContactsIcon,
     ContactsP,
-    ContactsText
+    ContactsText,
+    ContactsLink
 } from './ContactsElements'
 
 const Contacts = () => {
@@ -40,14 +39,14 @@ const Contacts = () => {
                             <ContactsIcon><FaLinkedin /></ContactsIcon>
                             <ContactsText>
                                 <ContactsH2>LinkedIn</ContactsH2>
-                                <ContactsP><Link href='https://www.linkedin.com/in/anastasia-pirus/'>Link</Link></ContactsP>
+                                <ContactsP><ContactsLink href='https://www.linkedin.com/in/anastasia-pirus/' target="_blank" rel="noreferrer">Link</ContactsLink></ContactsP>
                             </ContactsText>
                         </ContactPoint>
                         <ContactPoint>
                             <ContactsIcon><FaGithub /></ContactsIcon>
                             <ContactsText>
                                 <ContactsH2>GitHub</ContactsH2>
-                                <ContactsP><Link href='https://github.com/AnastasiiaPirus'>Link</Link> </ContactsP>
+                                <ContactsP><ContactsLink href='https://github.com/AnastasiiaPirus' target="_blank" rel="noreferrer">Link</ContactsLink> </ContactsP>
                             </ContactsText>
                         </ContactPoint>
                     </InfoContainer>
