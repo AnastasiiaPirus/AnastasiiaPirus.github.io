@@ -25,7 +25,6 @@ export const ImageBg = styled.img`
     -o-object-fit: cover;
     object-fit:cover;
     background: '#071E22';
-    /* opacity: 50% */
     filter: grayscale(91%) sepia(66%) blur(3px) brightness(13%) hue-rotate(132deg) saturate(194%);
     -webkit-filter: grayscale(91%) sepia(66%) blur(3px) brightness(13%) hue-rotate(132deg) saturate(194%);
     -moz-filter: grayscale(91%) sepia(66%) blur(3px) brightness(13%) hue-rotate(132deg) saturate(194%);
@@ -34,15 +33,12 @@ export const ImageBg = styled.img`
 
 export const ToolsWrapper = styled.div`
     display: grid;
-    /* z-index: 1; */ 
     height: 500px;
     width: 100%;
-    /* max-width: 1100px; */
     margin-right:auto;
     margin-left:auto;
     padding: 0 0px;
     overflow-x: hidden;
-    /* justify-content: center;  */
 `;
 
 export const ToolsH1 = styled.h1`
@@ -67,7 +63,6 @@ export const ToolsSlider = styled.div`
 `;
 
 export const ToolsListLeft = styled.ul`
-    /* border: blue 1px solid; */
     list-style: none;
     display: flex;
     width: calc(100px*24);
@@ -85,10 +80,8 @@ export const ToolsListLeft = styled.ul`
 
 `;
 export const ToolsListRight = styled.ul`
-    /* border: blue 1px solid; */
     list-style: none;
     display: flex;
-    /* justify-content:flex-end; */
     width: calc(100px*24);
     animation: scrollRight 40s linear infinite;
     color:#679289;
@@ -107,24 +100,10 @@ export const ToolsListRight = styled.ul`
 export const ToolItem = styled.li`
     min-width: 100px;
     height: 140px;
-  /* border: 2px solid #333; */
     position: relative;
-    &:hover {
-        /* background: rgba( 100, 100, 100, 0.2 );
-        box-shadow: 0 8px 32px 0 rgba( 13, 48, 15, 0.37 );
-        backdrop-filter: blur( 4px );
-        -webkit-backdrop-filter: blur( 4px );
-        border-radius: 10px;
-        border: 1px solid rgba( 30, 30, 30, 0.18 );
-        transition: 0.2s ease-in-out; */
-    }
-    
-
-
 `;
 
 export const ToolIcon = styled.span`
-    /* border: green 1px solid; */
     font-size: 5rem;
     
 
