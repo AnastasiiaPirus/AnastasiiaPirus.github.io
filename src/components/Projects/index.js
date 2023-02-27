@@ -8,6 +8,7 @@ import Wiki from '../../images/Wiki.png'
 import Finance from '../../images/Finance.png'
 import Google from '../../images/Google.png'
 import ComingSoon from '../../images/coming-soon.png'
+import Kanban from '../../images/Kanban.png'
 
 import {
     ProjectsContainer,
@@ -27,7 +28,19 @@ const Projects = () => {
         <>
             <ProjectsContainer id="projects">
                 <ProjectsH1>Recent Projects</ProjectsH1>
-                <ProjectsWrapper>                    
+                <ProjectsWrapper>
+                    <ProjectsCard>
+                        <ProjectsH2>Kanban Board</ProjectsH2>
+                        <ProjectsIcon src={Kanban} />
+                        <ProjectsP>React Drag&Drop app with styled components.</ProjectsP>
+                        <ButtonsContainer>
+                            <GitButton href="https://github.com/AnastasiiaPirus/kanban-dashboard" target='_blank'
+                                rel="noopener"
+                                aria-label='Github'>GitHub</GitButton>
+                            <LinkButton href='https://anastasiiapirus.github.io/kanban-dashboard/' target='_blank'
+                                rel="noopener">Visit website</LinkButton>
+                        </ButtonsContainer>
+                    </ProjectsCard>
                     <ProjectsCard>
                         <ProjectsH2>Banking App</ProjectsH2>
                         <ProjectsIcon src={BankingApp} />
@@ -96,7 +109,7 @@ const Projects = () => {
                             <GitButton href="https://github.com/AnastasiiaPirus/CS50-Projects/tree/main/wiki" target='_blank'
                                 rel="noopener"
                                 aria-label='Github'>GitHub</GitButton>
-                            
+
                         </ButtonsContainer>
                     </ProjectsCard>
                     <ProjectsCard>
@@ -106,7 +119,7 @@ const Projects = () => {
                         <ButtonsContainer>
                             <GitButton href="https://github.com/AnastasiiaPirus/CS50-Projects/tree/main/finance" target='_blank'
                                 rel="noopener"
-                                aria-label='Github'>GitHub</GitButton>                            
+                                aria-label='Github'>GitHub</GitButton>
                         </ButtonsContainer>
                     </ProjectsCard>
                     <ProjectsCard>
@@ -116,7 +129,7 @@ const Projects = () => {
                         <ButtonsContainer>
                             <GitButton href="https://github.com/AnastasiiaPirus/CS50-Projects/tree/main/search" target='_blank'
                                 rel="noopener"
-                                aria-label='Github'>GitHub</GitButton>                            
+                                aria-label='Github'>GitHub</GitButton>
                         </ButtonsContainer>
                     </ProjectsCard>
                     <ProjectsCard>
@@ -126,7 +139,7 @@ const Projects = () => {
                         <ButtonsContainer>
                             <GitButton href="https://github.com/AnastasiiaPirus/CS50-Projects/tree/main/commerce" target='_blank'
                                 rel="noopener"
-                                aria-label='Github'>GitHub</GitButton>                            
+                                aria-label='Github'>GitHub</GitButton>
                         </ButtonsContainer>
                     </ProjectsCard>
                 </ProjectsWrapper>
