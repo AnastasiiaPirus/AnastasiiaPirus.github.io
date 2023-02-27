@@ -32,7 +32,7 @@ const Projects = () => {
                     <ProjectsCard>
                         <ProjectsH2>Kanban Board</ProjectsH2>
                         <ProjectsIcon src={Kanban} />
-                        <ProjectsP>React Drag&Drop app with styled components.</ProjectsP>
+                        <ProjectsP>React Drag&Drop app with styled components made in few hours.</ProjectsP>
                         <ButtonsContainer>
                             <GitButton href="https://github.com/AnastasiiaPirus/kanban-dashboard" target='_blank'
                                 rel="noopener"
