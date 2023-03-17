@@ -82,10 +82,10 @@ const Projects = () => {
                         <ProjectsIcon src={Portfolio} />
                         <ProjectsP>You are here now :) React website with styled components.</ProjectsP>
                         <ButtonsContainer>
-                            <GitButton href="https://github.com/AnastasiiaPirus/Portfolio" target='_blank'
+                            <GitButton href="https://github.com/AnastasiiaPirus/AnastasiiaPirus.github.io" target='_blank'
                                 rel="noopener"
                                 aria-label='Github'>GitHub</GitButton>
-                            <LinkButton href='https://anastasiiapirus.github.io/Portfolio/' target='_blank'
+                            <LinkButton href='https://anastasiiapirus.github.io/' target='_blank'
                                 rel="noopener">Visit website</LinkButton>
                         </ButtonsContainer>
                     </ProjectsCard>
