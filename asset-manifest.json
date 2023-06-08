@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.87277745.css",
-    "main.js": "/static/js/main.6fc333a2.js",
+    "main.js": "/static/js/main.2ddf6be2.js",
     "static/media/SpaceJourney.png": "/static/media/SpaceJourney.87c1ccfb66988c5c481b.png",
     "static/media/background.jpg": "/static/media/background.03ad52010293fb645be6.jpg",
     "static/media/Cyberpunk.png": "/static/media/Cyberpunk.8420726780fb50d0df14.png",
@@ -11,15 +11,15 @@
     "static/media/Google.png": "/static/media/Google.fca7a4f88412e4109055.png",
     "static/media/Wiki.png": "/static/media/Wiki.9013241ddd30fd14f3aa.png",
     "static/media/Finance.png": "/static/media/Finance.d0077dc15272497a4737.png",
-    "static/media/AnastasiiaPirusResume_2023.pdf": "/static/media/AnastasiiaPirusResume_2023.5ea6c87cdf3e54708570.pdf",
     "static/media/Kanban.png": "/static/media/Kanban.6d85f56122964d353bdb.png",
     "static/media/coming-soon.png": "/static/media/coming-soon.8e3d37c2d986ddf9bbc7.png",
+    "static/media/AnastasiiaPirusResume.pdf": "/static/media/AnastasiiaPirusResume.dc73a4510439a37d593f.pdf",
     "index.html": "/index.html",
     "main.87277745.css.map": "/static/css/main.87277745.css.map",
-    "main.6fc333a2.js.map": "/static/js/main.6fc333a2.js.map"
+    "main.2ddf6be2.js.map": "/static/js/main.2ddf6be2.js.map"
   },
   "entrypoints": [
     "static/css/main.87277745.css",
-    "static/js/main.6fc333a2.js"
+    "static/js/main.2ddf6be2.js"
   ]
 }
