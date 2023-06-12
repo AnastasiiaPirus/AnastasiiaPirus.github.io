@@ -9,6 +9,8 @@ import Finance from '../../images/Finance.png'
 import Google from '../../images/Google.png'
 import ComingSoon from '../../images/coming-soon.png'
 import Kanban from '../../images/Kanban.png'
+import StellarWeb from '../../images/StellarWeb.png'
+import TSA from '../../images/TSA.png'
 
 import {
     ProjectsContainer,
@@ -29,6 +31,20 @@ const Projects = () => {
             <ProjectsContainer id="projects">
                 <ProjectsH1>Recent Projects</ProjectsH1>
                 <ProjectsWrapper>
+                    <ProjectsCard>
+                        <ProjectsH2>Stellar Personnel</ProjectsH2>
+                        <ProjectsIcon src={StellarWeb} />
+                        <ProjectsP>React landing page with functional forms and localization implementation.</ProjectsP>
+                        <ButtonsContainer>
+                            <LinkButton href='https://www.stellarpersonnel.ca/' target='_blank'
+                                rel="noopener">Visit website</LinkButton>
+                        </ButtonsContainer>
+                    </ProjectsCard>
+                    <ProjectsCard> 
+                        <ProjectsH2>The Solution Academy</ProjectsH2>
+                        <ProjectsIcon src={TSA} />
+                        <ProjectsP>Landing page for professional education company.</ProjectsP> 
+                    </ProjectsCard>
                     <ProjectsCard>
                         <ProjectsH2>Kanban Board</ProjectsH2>
                         <ProjectsIcon src={Kanban} />
