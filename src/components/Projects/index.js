@@ -36,7 +36,7 @@ const Projects = () => {
                         <ProjectsIcon src={StellarWeb} />
                         <ProjectsP>React landing page with functional forms and localization implementation.</ProjectsP>
                         <ButtonsContainer>
-                            <LinkButton href='https://www.stellarpersonnel.ca/' target='_blank'
+                            <LinkButton href='https://www.stellarpersonnel.co/' target='_blank'
                                 rel="noopener">Visit website</LinkButton>
                         </ButtonsContainer>
                     </ProjectsCard>
