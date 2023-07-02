@@ -85,6 +85,20 @@ export const NavLinks = styled(LinkS)`
     }
 `;
 
+export const ExternalLink = styled.a`
+    color: #F4C095;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+
+    &.active {
+        border-bottom: 3px solid #679289;
+    }
+`;
+
 export const NavBtn = styled.nav`
     display: flex;
     align-items: center;

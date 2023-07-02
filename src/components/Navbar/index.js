@@ -11,7 +11,8 @@ import {
     NavItem,
     NavLinks,
     NavBtn,
-    NavBtnLink
+    NavBtnLink,
+    ExternalLink 
 } from './NavbarElements';
 
 import Resume from '../../documents/AnastasiiaPirusResume.pdf'
@@ -59,6 +60,9 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
                         <NavItem>
                             <NavLinks to="contacts" smooth='true' duration={500} spy={true} exact = "true" offset={-80}>Contact Me</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <ExternalLink to="https://medium.com/@a.pirus">Blogs</ExternalLink>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
