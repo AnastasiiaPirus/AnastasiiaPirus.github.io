@@ -62,7 +62,7 @@ const Navbar = ({ toggle }) => {
                             <NavLinks to="contacts" smooth='true' duration={500} spy={true} exact = "true" offset={-80}>Contact Me</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <ExternalLink to="https://medium.com/@a.pirus">Blogs</ExternalLink>
+                            <ExternalLink href="https://medium.com/@a.pirus" target="_blank" rel="noopener noreferrer">Blogs</ExternalLink>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
