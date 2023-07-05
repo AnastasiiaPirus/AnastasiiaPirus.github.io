@@ -43,7 +43,11 @@ const Projects = () => {
                     <ProjectsCard> 
                         <ProjectsH2>The Solution Academy</ProjectsH2>
                         <ProjectsIcon src={TSA} />
-                        <ProjectsP>Landing page for professional education company.</ProjectsP> 
+                        <ProjectsP>Landing page for professional education company (unfinished yet).</ProjectsP> 
+                        <ButtonsContainer>
+                            <LinkButton href='https://www.thesolutionacademy.co/' target='_blank'
+                                rel="noopener">Visit website</LinkButton>
+                        </ButtonsContainer>
                     </ProjectsCard>
                     <ProjectsCard>
                         <ProjectsH2>Kanban Board</ProjectsH2>
