@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.87277745.css",
-    "main.js": "/static/js/main.75b53a2f.js",
+    "main.js": "/static/js/main.3517a329.js",
     "static/media/StellarWeb.png": "/static/media/StellarWeb.7aa986f9584c89d5bc59.png",
     "static/media/TSA.png": "/static/media/TSA.6b471a5cfaf35f01cd87.png",
     "static/media/SpaceJourney.png": "/static/media/SpaceJourney.87c1ccfb66988c5c481b.png",
@@ -15,13 +15,13 @@
     "static/media/Finance.png": "/static/media/Finance.d0077dc15272497a4737.png",
     "static/media/Kanban.png": "/static/media/Kanban.6d85f56122964d353bdb.png",
     "static/media/coming-soon.png": "/static/media/coming-soon.8e3d37c2d986ddf9bbc7.png",
-    "static/media/AnastasiiaPirusResume.pdf": "/static/media/AnastasiiaPirusResume.f8790416b603a02e2f6d.pdf",
+    "static/media/AnastasiiaPirusResume.pdf": "/static/media/AnastasiiaPirusResume.586bf29246474f31d6c3.pdf",
     "index.html": "/index.html",
     "main.87277745.css.map": "/static/css/main.87277745.css.map",
-    "main.75b53a2f.js.map": "/static/js/main.75b53a2f.js.map"
+    "main.3517a329.js.map": "/static/js/main.3517a329.js.map"
   },
   "entrypoints": [
     "static/css/main.87277745.css",
-    "static/js/main.75b53a2f.js"
+    "static/js/main.3517a329.js"
   ]
 }
