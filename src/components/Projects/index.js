@@ -11,6 +11,7 @@ import ComingSoon from '../../images/coming-soon.png'
 import Kanban from '../../images/Kanban.png'
 import StellarWeb from '../../images/StellarWeb.png'
 import TSA from '../../images/TSA.png'
+import Fedd from '../../images/Fedd.png'
 
 import {
     ProjectsContainer,
@@ -31,6 +32,7 @@ const Projects = () => {
             <ProjectsContainer id="projects">
                 <ProjectsH1>Recent Projects</ProjectsH1>
                 <ProjectsWrapper>
+
                     <ProjectsCard>
                         <ProjectsH2>Stellar Personnel</ProjectsH2>
                         <ProjectsIcon src={StellarWeb} />
@@ -47,6 +49,16 @@ const Projects = () => {
                         <ButtonsContainer>
                             <LinkButton href='https://www.thesolutionacademy.co/' target='_blank'
                                 rel="noopener">Visit website</LinkButton>
+                        </ButtonsContainer>
+                    </ProjectsCard>
+                    <ProjectsCard>
+                        <ProjectsH2>Fedd</ProjectsH2>
+                        <ProjectsIcon src={Fedd} />
+                        <ProjectsP>React/Typescript project with external API and GraphQL queries & mutations.</ProjectsP>
+                        <ButtonsContainer>
+                            <GitButton href="https://github.com/AnastasiiaPirus/nyble-fedd-challenge" target='_blank'
+                                       rel="noopener"
+                                       aria-label='Github'>GitHub</GitButton>
                         </ButtonsContainer>
                     </ProjectsCard>
                     <ProjectsCard>
