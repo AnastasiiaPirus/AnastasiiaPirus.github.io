@@ -12,6 +12,8 @@ import Kanban from '../../images/Kanban.png'
 import StellarWeb from '../../images/StellarWeb.png'
 import TSA from '../../images/TSA.png'
 import Fedd from '../../images/Fedd.png'
+import Voidverse from '../../images/Voidverse.png'
+import RoyalPath from '../../images/RoyalPath.png'
 
 import {
     ProjectsContainer,
@@ -32,7 +34,24 @@ const Projects = () => {
             <ProjectsContainer id="projects">
                 <ProjectsH1>Recent Projects</ProjectsH1>
                 <ProjectsWrapper>
-
+                    <ProjectsCard>
+                        <ProjectsH2>Royal Path</ProjectsH2>
+                        <ProjectsIcon src={RoyalPath}/>
+                        <ProjectsP>React Native game with tinder-swipe mechanics.</ProjectsP>
+                        <ButtonsContainer>
+                            <LinkButton href='https://play.google.com/store/apps/details?id=com.royalpath.voidverse' target='_blank'
+                                        rel="noopener">Play store</LinkButton>
+                        </ButtonsContainer>
+                    </ProjectsCard>
+                    <ProjectsCard>
+                        <ProjectsH2>Voidverse Studios</ProjectsH2>
+                        <ProjectsIcon src={Voidverse}/>
+                        <ProjectsP>Business landing page build with Next.js 13.</ProjectsP>
+                        <ButtonsContainer>
+                            <LinkButton href='https://voidverse.ca/' target='_blank'
+                                        rel="noopener">Visit website</LinkButton>
+                        </ButtonsContainer>
+                    </ProjectsCard>
                     <ProjectsCard>
                         <ProjectsH2>Stellar Personnel</ProjectsH2>
                         <ProjectsIcon src={StellarWeb} />
